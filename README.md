@@ -71,10 +71,10 @@ Variabel-variabel pada Database Film Indonesia adalah sebagai berikut:
 - `user_id`: ID unik pengguna.
 
 ## Exploratory Data Analysis
-<div><img src="https://github.com/rizkidwi07/Source/raw/main/Screenshot%202025-03-05%20134943.png") width="450"/></div><br />
+<div><img src="https://github.com/rizkidwi07/Source/raw/main/Screenshot%202025-03-05%20134943.png") width="650"/></div><br />
 Terdapat 12 kolom. Di sini tidak terdapat ID unik pengguna, maka dari itu akan ditambahkan kolom `user_id`.
 
-<div><img src="https://github.com/rizkidwi07/Source/raw/main/Screenshot%202025-03-05%20135427.png") width="450"/></div><br />
+<div><img src="https://github.com/rizkidwi07/Source/raw/main/Screenshot%202025-03-05%20135427.png") width="650"/></div><br />
 `user_id` telah ditambahkan dengan format U + 00..
 
 <div><img src="https://github.com/rizkidwi07/Source/raw/main/Screenshot%202025-03-05%20135004.png") width="450"/></div><br />
@@ -129,8 +129,9 @@ Teknik yang digunakan dalam penyiapan data (Data Preparation) yaitu:
   - Content-Based Filtering: Menggunakan TF-IDF untuk mengidentifikasi korelasi antara nama film dengan genre film dan Cosine Similarity untuk menghitung derajat kesamaan (similarity degree) antar film dengan teknik cosine similarity. Hal ini digunakan untuk menghitung kemiripan antara film berdasarkan genre.
   Hasil Rekomendasi:
   Sistem rekomendasi yang dikeluarkan sistem ini adalah berupa top-N recommendation. Kita akan mendapatkan rekomendasi film yang mirip dengan 'MeloDylan' dengan genre 'Drama'.
-  <div><img src="https://github.com/rizkidwi07/Source/raw/main/Screenshot%202025-03-05%20142921.png") width="450"/></div><br />
+    <div><img src="https://github.com/rizkidwi07/Source/raw/main/Screenshot%202025-03-05%20142921.png") width="450"/></div><br />
   Sistem memberikan rekomendasi 5 film restoran dengan kategori 'Drama'.
+  
 
   - Collaborative Filtering: Menggunakan Matrix Factorization untuk menemukan hubungan antara pengguna dan film berdasarkan rating yang diberikan. Pada tahap ini, model menghitung skor kecocokan antara pengguna dan film dengan teknik embedding. Pertama, lakukan proses embedding terhadap data user dan film. Selanjutnya, lakukan operasi perkalian dot product antara embedding user dan film. Selain itu, dapat menambahkan bias untuk setiap user dan film. Skor kecocokan ditetapkan dalam skala [0,1] dengan fungsi aktivasi sigmoid.
     Hasil Rekomendasi:
