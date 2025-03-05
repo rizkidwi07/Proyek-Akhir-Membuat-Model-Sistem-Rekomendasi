@@ -130,10 +130,9 @@ Teknik yang digunakan dalam penyiapan data (Data Preparation) yaitu:
   
   Hasil Rekomendasi:
   Sistem rekomendasi yang dikeluarkan sistem ini adalah berupa top-N recommendation. Kita akan mendapatkan rekomendasi film yang mirip dengan 'MeloDylan' dengan genre 'Drama'. Sistem memberikan rekomendasi 5 film restoran dengan kategori 'Drama'.
-
-  Hasil Rekomendasi:
-  <div><img src="https://github.com/rizkidwi07/Source/raw/main/Screenshot%202025-03-05%20142921.png") width="450"/></div><br />
-
+    Hasil Rekomendasi:
+    <div><img src="https://github.com/rizkidwi07/Source/raw/main/Screenshot%202025-03-05%20142921.png") width="450"/></div><br />
+    
   - Collaborative Filtering: Menggunakan Matrix Factorization untuk menemukan hubungan antara pengguna dan film berdasarkan rating yang diberikan. Pada tahap ini, model menghitung skor kecocokan antara pengguna dan film dengan teknik embedding. Pertama, lakukan proses embedding terhadap data user dan film. Selanjutnya, lakukan operasi perkalian dot product antara embedding user dan film. Selain itu, dapat menambahkan bias untuk setiap user dan film. Skor kecocokan ditetapkan dalam skala [0,1] dengan fungsi aktivasi sigmoid.
   
     Hasil Rekomendasi:
