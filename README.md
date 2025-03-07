@@ -162,7 +162,8 @@ film restoran dengan kategori 'Drama'.
   
     Hasil Rekomendasi:
     <div><img src="https://github.com/rizkidwi07/Source/raw/main/Screenshot%202025-03-05%20142955.png") width="450"/></div><br />
-    Hasil di atas adalah rekomendasi untuk user dengan id U001 dan U002. Dari output tersebut, dapat membandingkan antara film with high ratings from user dan Top 10 film recommendation untuk user. Perhatikanlah, beberapa film rekomendasi menyediakan kategori `genre` yang sesuai dengan rating user. Pada user dengan id U001, diperoleh 2 rekomendasi film dengan kategori 'Biography' yang sesuai dengan rating yang diberikan sebelumnya.
+    
+    Hasil di atas adalah rekomendasi untuk user dengan id U001 dan U002. Dari output tersebut, dibandingkan antara film with high ratings from user dan Top 10 film recommendation untuk user. Perhatikanlah, beberapa film rekomendasi menyediakan kategori `genre` yang sesuai dengan rating user. Pada user dengan id U001, diperoleh 2 rekomendasi film dengan kategori 'Biography' yang sesuai dengan rating yang diberikan sebelumnya.
   
 
 ## Evaluation
