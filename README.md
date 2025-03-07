@@ -169,11 +169,17 @@ film restoran dengan kategori 'Drama'.
 Evaluasi dilakukan untuk mengukur seberapa baik model dalam memberikan rekomendasi yang relevan. Metrik yang digunakan adalah sebagai berikut:
 
 - Evaluasi Content-Based Filtering
+  
   - Precision@K: Mengukur proporsi rekomendasi yang relevan dalam daftar top-K.
+    
   <div><img src="https://github.com/rizkidwi07/Source/raw/main/precision-formula.png") width="450"/></div><br />
+  
   Berdasarkan rumus precision diatas maka dapat dihitung nilai precision sebagai berikut :
+  
   - Pada movie yang dipilih yaitu MeloDylan dengan genre Drama
+  
   - muncul 5 buah rekomendasi movie yang memiliki genre yang sama yaitu Drama
+    
   - Jadi hasil dari metrik precisionnya adalah 5/5 = 100%. Yang dimana menunjukan hasil yang sangat baik yaitu 100% yang berarti presisi dari rekomendasi yang diberikan adalah sempurna
 
 - Evaluasi Collaborative Filtering
