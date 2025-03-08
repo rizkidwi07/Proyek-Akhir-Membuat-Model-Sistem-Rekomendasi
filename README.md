@@ -183,7 +183,7 @@ Evaluasi dilakukan untuk mengukur seberapa baik model dalam memberikan rekomenda
 
 - Evaluasi Collaborative Filtering
   - Root Mean Square Error (RMSE): Mengukur selisih antara rating yang diprediksi dengan rating sebenarnya.
-  <div><img src="https://github.com/rizkidwi07/Source/blob/main/Screenshot%202025-03-05%20142940.png") width="450"/></div><br />
+  <div><img src="https://github.com/rizkidwi07/Source/raw/main/Screenshot%202025-03-05%20142940.png") width="450"/></div><br />
   Dari hasil visualisasi dengan matplotlib di atas dapat disimpulkan bahwa dari proses diatas dengan menggunakan epoch 100, menghasilkan error pada validasi sebesar 0.20 dan error pada data train sebesar 0.18.
   
 
